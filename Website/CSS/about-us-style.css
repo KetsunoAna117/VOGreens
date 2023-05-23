@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* Color */
+.light-green{
+    color: #CCFFBD;
+}
+
+.dark-green{
+    color: #5E9875;
+}
+
+/* Top Navbar */
+nav {
+    z-index: 10;
+    background: #1C1427;
+    width: 100%;
+    height:7vw;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.logo{
+    float: left;
+    padding-right: 10em;
+}
+
+.VO-nav{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    color: #FFFFFF;
+}
+
+.Greens-nav{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #CCFFBD;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.389vw;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 2vw;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#active{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.389vw;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+/* Body */
+
+.about{
+    margin-top: 10vw;
+    position: relative;
+    display: flex;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+    margin-bottom: 7.5vw;
+}
+
+.about .left{
+    width: 50%;
+}
+
+.about .left .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.778vw;
+    color: #000000;
+}
+
+.about .left .title2 .logo-vo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    color: #5E9875;
+}
+
+.about .left .title2 .logo-greens{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #7ECA9C;
+}
+
+.about .left span.restaurant{
+    padding-left: 1vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+    color: #000000;
+}
+
+.about .left .description{
+    padding-top: 1vw;
+    margin-right: 2vw;
+    
+}
+
+.about .left .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.111vw;
+    color: #000000;
+}
+
+.about .right {
+    width: 50%;
+}
+
+.about .right img{
+    float: right;
+    object-fit: cover;
+    width: 34vw;
+    height: 20vw;
+    margin-top: 4.5vw;
+}
+
+.visi-misi{
+    position: relative;
+    display: flex;
+    margin-top: 7vw;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    margin-bottom: 7.5vw;
+}
+
+.visi-misi .left{
+    width: 50%;
+}
+
+.visi-misi img{
+    object-fit: cover;
+    width: 35vw;
+    height: 45vw;
+}
+
+.visi-misi .right{
+    padding-top: 1vw;
+    padding-left: 5vw;
+}
+
+.visi-misi .right .visi-misi-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.500vw;
+    color: #000000;
+}
+
+.visi-misi .right .visi-misi-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    color: #000000;
+}
+
+.visi-misi .right .visi-misi-description ul{
+    padding-left: 1.5vw;
+}
+
+.visi-misi .right .visi-misi-description ul li{
+    padding-left: 1vw;
+}
+
+.visi-misi .visi-misi-description{
+    padding-top: 0.5vw;
+    padding-bottom: 2vw;
+}
+
+.visi-misi .visi-misi-description li{
+    padding-bottom: 1vw;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    margin-top: auto;
+    background: #1C1427;
+    height: 15vw;
+    width: 100%;
+}
+
+footer .footer-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5vw;
+    padding-top: 2.5vw;
+}
+
+footer .footer-container .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .left .sub-logo{
+    margin-top: -0.5vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+
+footer .footer-container .left .social-media{
+    display: flex;
+    color: white;
+    padding-top: 1vw;
+    font-size: 1.5vw;
+}
+
+footer .footer-container .left .social-media .twitter{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
+footer .footer-container .right{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.111vw;
+    color: #FFFFFF;
+    margin-left: 8vw;
+}
+
+footer .footer-container .right .contact{
+    margin-top: 1.5vw;
+    display: flex;
+}
+
+footer .footer-container .right .contact .contact-text{
+    margin-left: 1.5vw;
+}
+
+footer .footer-container .right .address{
+    padding-top: 1.5vw;
+    display: flex;
+}
+
+footer .footer-container .right .address .location-text{
+    margin-left: 1.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .about{
+        position: relative;
+        display: block;
+        margin-bottom: 10vw;
+    }
+
+    .about .right img{
+        float: none;
+    }
+
+    .visi-misi{
+        position: relative;
+        display: block;
+    }
+
+    .visi-misi .left{
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    footer {
+        position: absolute;
+        bottom: 0;
+        background: #1C1427;
+        height: 15vw;
+        width: 100%;
+    }
+}
+
+

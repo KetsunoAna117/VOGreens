@@ -5,24 +5,19 @@ VOrgreens is an Indonesia's plant-based eatery chain serving delicious healthy, 
 
 # Homepage
 This page shows the popular menus for the customer. This page also has a promotion banner that displays one of the appealing menus in VOrgreens.
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
+
 
 # About Us Page
 This page provides information about the company. Make sure the information provided is relevant, such as the history, vision, and mission of VOrgreens.
-![Uploading image.png…]()
+
 
 # Menu Page
 This page shows list of menus. VOrgreens wants the menus must be categorized according to their cuisine. Each menu has its own information, such as the menu picture, name, and short description.
-![Uploading image.png…]()
-![Uploading image.png…]()
+
 
 # Find Us Page
 This page gives information about VOgreens' store locations that users could visit offline, including business hours and full address.
-![Uploading image.png…]()
 
 # Contact Us Page
 This page provides a contact form for the users. In order to contact, user needs to submit some personal information, such as name, email, gender, message, and user must subscribe us. You are asked to create 5 kinds of form components and 5 kinds of validation. For validation, you must create it using JavaScript and don't use regular expression.
-![Uploading image.png…]()
-![Uploading image.png…]()
+
